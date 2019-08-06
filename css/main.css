@@ -176,6 +176,14 @@ text-transform: uppercase;
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
+.rating .item h1{
+  margin-top: 0px;
+  font-size: 4em;
+  margin-bottom: -10px;
+}
+.rating .item img{
+  color: #fab730;
+}
 .item2{
   margin-bottom: -20px;
 }
