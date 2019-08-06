@@ -115,13 +115,20 @@ text-transform: uppercase;
   grid-template-columns: repeat(2,1fr);
 }
 .item{
-  
+  position: relative;
+
   height: 40%;
   
-  border-right: 3px solid #ccc;
+  border-right: 3px solid #eaedf0;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
 .item:last-child{
   border:none
+}
+.exception{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 .container{
   width: 110px;
@@ -165,8 +172,16 @@ text-transform: uppercase;
       linear-gradient(90deg, #273178 50%, transparent 25%);
   
 }
+.rating{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.item2{
+  margin-bottom: -20px;
+}
 .text-muted{
   color: rgb(161, 159, 159);
+  font-weight: 700;
 }
 .tab{
 width: 88.4%;
